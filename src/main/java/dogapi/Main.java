@@ -1,8 +1,5 @@
 package dogapi;
 
-import org.json.JSONException;
-
-
 import java.util.List;
 
 public class Main {
