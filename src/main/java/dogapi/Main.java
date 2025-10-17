@@ -29,7 +29,7 @@ public class Main {
             List<String> subBreeds = cachingFetcher.getSubBreeds(breed);
             return subBreeds.size();
         } catch (BreedFetcher.BreedNotFoundException event) {
-            return -1;
+            return 0;
         }
     }
 }
